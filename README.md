@@ -1,2 +1,3 @@
 # Project-Exam-1-Sage-Tindeland
-Project Exam 1 
+SpaceX microsite made with HTML, CSS and JavaScript. 
+Report of the planning and Development process is available. 
