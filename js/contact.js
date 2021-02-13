@@ -45,7 +45,7 @@ function submitForm(event) {
 							<img src="icons/spaceship.png" alt="Spaceship icon">
 							<p>Thank you for contacting us. We will get back in touch with you shortly!</p></div>`;
 		form.reset();
-		window.scrollBy(0, -20)
+		window.scroll(0, 707);
 	} else {
 		message.style.display = "none";
 	}
