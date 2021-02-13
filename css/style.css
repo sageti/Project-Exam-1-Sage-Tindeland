@@ -582,8 +582,9 @@ blockquote {
 	}
 
 	#latestlaunch h2 {
-		font-size: 80px; 
-		width: 800px; 
+		width: 800px;
+		margin: 20px 0;
+		font-size: 80px;  
 	} 
 }
 
