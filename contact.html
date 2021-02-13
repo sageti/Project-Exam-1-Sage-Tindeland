@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Sage Tindeland">
+    <meta name="keywords" content="Contact spaceX, contact, social media, facebook, instagram, flickr, linkedin, twitter, send message">
+    <meta name="decription" content="Contact or follow SpaceX on social media">
+    <title>Contact SpaceX</title>
+    <!-- Stylesheets -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/nav-style.css" />
+    <link rel="stylesheet" href="css/style-contactform.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <header>
+        <div id="menu">
+            <a href="index.html"><img src="icons/spacex-logo.png" alt="logo" class="icon-logo-menu"/></a>
+            <label for="hamburger-menu"><img src="icons/menu-icon.png" alt="menu" class="icon-menu" /></label>
+            <input type="checkbox" id="hamburger-menu" />
+            <nav>
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="technology.html">Technology</a></li>
+                    <li><a href="contact.html" class="active-page">Contact</a></li>
+                    <li><a href="launches.html">Launches</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="headerContact"></div>
+    <main id="contactpage">
+        <div>
+            <h1>Follow us</h1>
+            <div class="social-contact">
+                <ul>
+                    <li><img src="icons/facebook.png" alt="Facebook" class="icon"><a href="https://www.facebook.com/spacenewsx/" target="_blank">Facebook</a></li>
+                    <li><img src="icons/instagram.png" alt="Instagram" class="icon"><a href="https://www.instagram.com/spacex/" target="_blank">Instagram</a></li>
+                    <li><img src="icons/flickr.png" alt="Flickr" class="icon"><a href="https://www.flickr.com/search/?user_id=130608600%40N05&view_all=1&text=" target="_blank">Flickr</a></li>
+                    <li><img src="icons/linkedin.png" alt="Linkedin" class="icon"><a href="https://www.linkedin.com/company/spacex/?originalSubdomain=no" target="_blank">LinkedIn</a></li>
+                    <li><img src="icons/twitter.png" alt="Twitter" class="icon"><a href="https://twitter.com/SpaceX?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">Twitter</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="contactBlock">
+            <h1>Contact us</h1>
+            <div class="message"></div>
+            <p>Are you interested in working with us, learning more about our projects or simply just ask us questions? Go ahead and fill out the form below and we will get in touch within a few days.</p>
+            <form action="#" method="GET" id="contactForm">
+                <div class="form-top">
+                    <div>
+                        <label>
+                            <p><span class="bold">Name</span> *</p>
+                            <input name="name" id="name" />
+                            <div class="form-error" id="nameError">Your name is required</div>
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <p><span class="bold">Email</span> *</p>
+                            <input name="email" id="email" />
+                            <div class="form-error" id="emailError">Please enter a valid email address</div>
+                        </label>
+                    </div>
+                </div>
+                <div>
+                    <label>
+                        <p><span class="bold">Message</span> *</p>
+                        <textarea name="message" id="message"></textarea>
+                        <div class="form-error" id="messageError">Tell us what's on your mind!</div>
+                    </label>
+                </div>
+                <p>* Required fields</p>
+                <button class="button-white">Send message</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <img src="icons/spaceship.png" alt="Return to the top of the page" class="launch-icon"><a href="#" class="top">Launch to top</a>
+        <ul>
+            <li><a href="https://www.spacex.com/" target="_blank">SpaceX</a></li>
+            <li><a href="https://www.facebook.com/spacenewsx/" target="_blank">Facebook</a></li>
+            <li><a href="https://www.instagram.com/spacex/" target="_blank">Instagram</a></li>
+        </ul>
+        <p class="caps">2021 &copy; SpaceX microsite</p>
+    </footer>  
+    <!-- Script tags -->
+    <script src="js/contact.js"></script>
+    <script src="js/navScroll.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Sage Tindeland">
+    <meta name="keywords" content="SpaceX, latest launch, launch time, upcoming, past, successful launch, mission, space operation, earth orbit, video, space launch video">
+    <meta name="decription" content="Read about and watch a video of the latest SpaceX launch or get redirected to a timeline of all launches.">
+    <title>SpaceX Latest launch</title>
+    <!-- Stylesheets -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/nav-style.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <header>
+        <div id="menu">
+            <a href="index.html"><img src="icons/spacex-logo.png" alt="logo" class="icon-logo-menu"/></a>
+            <label for="hamburger-menu"><img src="icons/menu-icon.png" alt="menu" class="icon-menu" /></label>
+            <input type="checkbox" id="hamburger-menu" />
+            <nav>
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="technology.html">Technology</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="launches.html" class="active-page">Launches</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main id="allLaunches">
+        <div class="headerLaunches">
+            <div class="headingLaunches">
+                <h1>SpaceX Launches</h1>
+            </div>
+        </div>
+        <div class="headerAllLaunches">
+            <p>Check out the timelime below for all past and upcoming launches from year 2020 to 2021. If you are interested in an overview over all news related to upcoming launches, check out SpaceX's official website for <a href="https://www.spacex.com/updates/" target="_blank" class="link">updates</a> <i>(window opens in a new tab).</i></p>
+            <button class="sort-latest button-white"><img src="icons/sort.png" alt="Sort latest on top" class="sort-icon">Latest launches</button>
+            <button class="sort-first button-white"><img src="icons/sort.png" alt="Sort first on top" class="sort-icon">First launches</button>
+        </div>
+        <div class="allLaunchesBlock">
+            <div class="loader loading-indicator"></div>  
+        </div>
+    </main>
+    <footer>
+        <img src="icons/spaceship.png" alt="Return to the top of the page" class="launch-icon"><a href="#" class="top">Launch to top</a>
+        <ul>
+            <li><a href="https://www.spacex.com/" target="_blank">SpaceX</a></li>
+            <li><a href="https://www.facebook.com/spacenewsx/" target="_blank">Facebook</a></li>
+            <li><a href="https://www.instagram.com/spacex/" target="_blank">Instagram</a></li>
+        </ul>
+        <p class="caps">2021 &copy; SpaceX microsite</p>
+    </footer> 
+    <!-- script tags -->
+    <script src="js/launches.js"></script>
+    <script src="js/navScroll.js"></script>
+</body>
+</html>
+

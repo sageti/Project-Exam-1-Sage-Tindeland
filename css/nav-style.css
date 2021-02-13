@@ -1,0 +1,128 @@
+/*Footer*/
+footer {
+	text-align: center;
+    margin: 0 auto;
+    padding: 20px 0; 
+}
+
+footer ul {
+    padding-inline-start: 0;
+}
+
+footer ul li {
+	display: inline-block;
+	padding: 10px;
+	margin: 0;
+}
+
+.caps {
+    text-transform: uppercase;
+    font-family: 'Roboto', Verdana, Tahoma, sans-serif;
+    color: grey;
+}
+
+.top {
+    text-transform: uppercase;
+    font-family: 'Roboto', Verdana, Tahoma, sans-serif;
+    color: #fff;
+}
+
+.top:hover {
+    color: grey;
+    border-bottom: 1px solid grey;
+}
+
+/*Navigation*/
+#hamburger-menu {
+	display: none;
+}
+
+#hamburger-menu:checked ~ nav {
+	display: block; 
+}
+
+nav {
+    display: none;
+	width: 100%;
+}
+
+.icon-menu {
+	float: right;
+	margin-top: 25px;
+	margin-right: 20px;
+	height: 15px;
+}
+
+.icon-logo-menu {
+	height: 20px; 
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+nav ul li {
+	margin: 0 20px 0 0; 
+    padding: 5px 0 5px 0;
+	list-style-type: none;
+	text-align: right;
+}
+
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:active, nav a:hover, .active-page {
+	border-bottom: 1px solid #fff;
+	padding-bottom: 5px;
+}
+
+@media only screen and (min-width: 813px) {
+	#hamburger-menu, #hamburger-menu:checked ~ nav, .icon-menu {
+		display: none;
+		margin: 0;
+	}
+
+	header {
+		height: 0;
+		position: fixed; 
+	}
+	
+	.icon-logo-menu {
+		height: 30px; 
+		margin-top: 10%;
+		margin-left: 10%;
+	}
+
+	nav { 
+		display: inline-block;
+		text-align: right;
+	}
+
+	nav ul li {
+		position: fixed;
+		top: 37px; 
+		right: 20px; 
+		display: inline-block; 
+		font-family: 'Roboto', Verdana, Tahoma, sans-serif;
+		font-weight: 400;
+		font-size: 14px;
+	}
+
+	nav ul li:nth-child(1) {
+		padding-right: 290px; 
+    }
+    
+    nav ul li:nth-child(2) {
+		padding-right: 175px; 
+	}
+
+	nav ul li:nth-child(3) {
+		padding-right: 90px; 
+	}
+
+	nav ul li:last-child {
+		padding-right: 0;
+	}
+}

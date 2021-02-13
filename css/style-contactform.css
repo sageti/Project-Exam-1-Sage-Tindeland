@@ -1,0 +1,72 @@
+/*Remorse message*/
+.message {
+    display: none;
+	width: 300px;
+	margin-top: 20px;
+	outline: none;
+	padding: 10px;
+    background-color: #24C564;
+	border: 1px solid #fff;
+	color: #fff;
+	font: inherit;
+}
+
+.textMessage {
+    font: inherit;
+    display: flex;
+    flex-direction: row;
+}
+
+.textMessage img {
+    padding: 20px 20px 20px 10px;
+    height: 15px;
+}
+
+/*Error*/
+.form-error {
+	display: none;
+    color: #DE6854;
+	font-size: 0.9rem;
+	margin-top: 2px;
+}
+
+/*Inputs*/
+input, #message {
+	width: 300px;
+	outline: none;
+	padding: 10px;
+	background-color: transparent;
+	border: 1px solid #fff;
+	color: #fff;
+	font: inherit;
+}
+
+input {
+	height: 30px;
+}
+
+#message {
+	height: 100px;
+	resize: none;
+}
+
+.form-top {
+	display: flex; 
+	flex-wrap: wrap;
+}
+
+.form-top input {
+	margin-right: 20px; 
+}
+
+@media only screen and (max-width: 374px) {
+    input, #message {
+        width: 240px;
+    }
+}
+
+@media only screen and (min-width: 704px) {
+	#message, .message {
+		width: 640px;
+	}
+}

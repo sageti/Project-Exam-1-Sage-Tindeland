@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Sage Tindeland">
+    <meta name="keywords" content="SpaceX, Starlink, Starlink-18, space technoology, space, launches, reusability, get involved, opportunities, jobs, internships, career, humans in space">
+    <meta name="decription" content="Learn more about SpaceX, check out the past and upcoming launches, see who is currently on the international space station and get involved with SpaceX.">
+    <title>SpaceX Microsite</title>
+    <!-- Stylesheets -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/nav-style.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <header>
+        <div id="menu">
+            <a href="index.html"><img src="icons/spacex-logo.png" alt="logo" class="icon-logo-menu"/></a>
+            <label for="hamburger-menu"><img src="icons/menu-icon.png" alt="menu" class="icon-menu" /></label>
+            <input type="checkbox" id="hamburger-menu" />
+            <nav>
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="technology.html">Technology</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="launches.html">Launches</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main id="homepage">
+        <!-- Latest launch API -->
+        <div class="launchContainer">
+            <div class="loader loading-indicator"></div>
+        </div>
+        <!-- Humans in space API -->
+        <div class="spaceContainer">
+            <div class="loader loading-indicator"></div>
+        </div>
+        <!-- Get involved -->
+        <div class="PartnershipContainer">
+            <h2>Get involved</h2>
+            <blockquote class="quote">
+                <p>&laquo;The view of earth is absolutely spectacular, and the feeling of looking back and seeing your planet as a planet is just an amazing feeling. It&apos;s a totally different perspective, and it makes you appreciate, actually, how fragile our existence is&raquo;</p>
+                <cite><a href="https://www.spacex.com/human-spaceflight/earth/index.html">Sally Ride</a></cite>
+            </blockquote>
+            <h3>Opportunies</h3>            
+            <p>Join the world-class talented team at SpaceX. All links below will direct you to Space'X official website:</p>
+            <ul class="opportunities">
+                <li>SpaceX <a href="https://www.spacex.com/careers/" target="_blank" class="link">Careers</a></li>
+                <li>SpaceX <a href="https://www.spacex.com/internships/" target="_blank" class="link">Internships</a></li>
+                <li>SpaceX <a href="https://www.spacex.com/careers/?department=" target="_blank" class="link">Available Jobs</a></li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <img src="icons/spaceship.png" alt="Return to the top of the page" class="launch-icon"><a href="#" class="top">Launch to top</a>
+        <ul>
+            <li><a href="https://www.spacex.com/" target="_blank">SpaceX</a></li>
+            <li><a href="https://www.facebook.com/spacenewsx/" target="_blank">Facebook</a></li>
+            <li><a href="https://www.instagram.com/spacex/" target="_blank">Instagram</a></li>
+        </ul>
+        <p class="caps">2021 &copy; SpaceX microsite</p>
+    </footer>   
+    <!-- Script tags -->
+    <script src="js/index.js"></script> 
+    <script src="js/navScroll.js"></script>
+</body>
+</html>
