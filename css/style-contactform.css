@@ -45,6 +45,12 @@ input {
 	height: 30px;
 }
 
+input, textarea {
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
 #message {
 	height: 100px;
 	resize: none;
